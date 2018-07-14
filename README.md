@@ -6,9 +6,9 @@
 
 **<sup>2</sup>Department of Physics, Syracuse University, Syracuse, NY 13244, USA**
 
-**<sup>3</sup>Albert-Einstein-Institut, Max-Planck-Institut f\"ur Gravitationsphysik, D-30167 Hannover, Germany**
+**<sup>3</sup>Albert-Einstein-Institut, Max-Planck-Institut for Gravitationsphysik, D-30167 Hannover, Germany**
 
-**<sup>4</sup>Albert-Einstein-Institut, Max-Planck-Institue f\"ur Gravitationsphysik, D-14476 Potsdam, Germany**
+**<sup>4</sup>Albert-Einstein-Institut, Max-Planck-Institue for Gravitationsphysik, D-14476 Potsdam, Germany**
 
 ## License
 

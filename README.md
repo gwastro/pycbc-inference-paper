@@ -1,6 +1,6 @@
 # PyCBC Inference: A Python-based parameter estimation toolkit for compact-object merger signals
 
-**C. M. Biwer<sup>1,2</sup>, C. Capano<sup>3</sup>, Soumi De<sup>2</sup>, M. Cabero<sup>3</sup>, Duncan A. Brown<sup>2</sup>, Alexander H. Nitz<sup>3</sup>, V. Raymond<sup>4,5</sup>**
+**C. M. Biwer<sup>1,2</sup>, Collin D. Capano<sup>3</sup>, Soumi De<sup>2</sup>, Miriam Cabero<sup>3</sup>, Duncan A. Brown<sup>2</sup>, Alexander H. Nitz<sup>3</sup>, V. Raymond<sup>4,5</sup>**
 
 **<sup>1</sup>Los Alamos National Laboratory, Los Alamos, NM 87545, USA**
 
@@ -8,7 +8,7 @@
 
 **<sup>3</sup>Albert-Einstein-Institut, Max-Planck-Institut for Gravitationsphysik, D-30167 Hannover, Germany**
 
-**<sup>4</sup>Albert-Einstein-Institut, Max-Planck-Institue for Gravitationsphysik, D-14476 Potsdam, Germany**
+**<sup>4</sup>Albert-Einstein-Institut, Max-Planck-Institut for Gravitationsphysik, D-14476 Potsdam, Germany**
 
 **<sup>5</sup>School of Physics and Astronomy, Cardiff University, Cardiff, CF243AA, Wales, UK**
 
@@ -20,20 +20,19 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unite
 
 ## Introduction
 
-The contents in this repository is a companion to the paper posted at [arxiv:XXX](https://arxiv.org/abs/XXX). We release posterior probability density files from the MCMC from running PyCBC inference on the gravitational-wave data for the binary black hole events GW150914, GW151226, and LVT151012, detected during LIGO's first observing run. We provide a notebook to demonstrate how to read these posterior files and reconstruct figures 4, 5 and 6 in the paper. We also provide the configuration files and sample scripts with command lines to run the PyCBC inference parameter estimation analysis on the gravitational-wave data for the three events.
+The contents in this repository is a companion to the paper posted at [arxiv:1807.10312](https://arxiv.org/abs/1807.10312). We release posterior probability density files from the MCMC from running PyCBC inference on the gravitational-wave data for the binary black hole events GW150914, GW151226, and LVT151012, detected during LIGO's first observing run. We provide a notebook to demonstrate how to read these posterior files and reconstruct figures 4, 5 and 6 in the paper. We also provide the configuration files and sample scripts with command lines to run the PyCBC inference parameter estimation analysis on the gravitational-wave data for the three events.
 
 We encourage use of these data in derivative works. If you use the material provided here, please cite the paper using the reference:
 ```
 @article{Biwer:2018,
-      author         = "Biwer, C. M. and Capano, C. and De, Soumi and
-                        Cabero, M. and Brown, Duncan A. and Nitz, Alexander H. and Raymond, V.
-                        M.",
+      author         = "Biwer, C. M. and Capano, Collin D. and De, Soumi and
+                        Cabero, Miriam and Brown, Duncan A. and Nitz, Alexander H. and Raymond, V.",
       title          = "{PyCBC Inference: A Python-based parameter estimation toolkit for compact-object merger signals}",
       year           = "2018",
-      eprint         = "XXX",
+      eprint         = "1807.10312",
       archivePrefix  = "arXiv",
-      primaryClass   = "YYY",
-      SLACcitation   = "%%CITATION = ARXIV:XXX;%%"
+      primaryClass   = "astro-ph.IM",
+      SLACcitation   = "%%CITATION = ARXIV:1807.10312;%%"
 }
 ```
 

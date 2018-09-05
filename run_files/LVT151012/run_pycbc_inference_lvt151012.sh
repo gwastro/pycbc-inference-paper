@@ -1,8 +1,8 @@
 #! /bin/bash -v
 
 # The frame files can be downloaded from the LIGO Open Science Center (LOSC) with the following commands
-#wget https://losc.ligo.org/archive/data/O1/1128677376/H-H1_LOSC_4_V1-1128677376-4096.gwf
-#wget https://losc.ligo.org/archive/data/O1/1128677376/L-L1_LOSC_4_V1-1128677376-4096.gwf
+#wget https://losc.ligo.org/s/events/LVT151012/H-H1_LOSC_16_V2-1128676852-4096.gwf
+#wget https://losc.ligo.org/s/events/LVT151012/L-L1_LOSC_16_V2-1128676852-4096.gwf
 
 # This can also be run on multiple machines using MPI for which add --use-mpi to the command line below
 
@@ -22,7 +22,7 @@ pycbc_inference --verbose \
 --instruments H1 L1 \
 --gps-start-time 1128678874 \
 --gps-end-time 1128678906 \
---frame-files H1:H-H1_LOSC_4_V1-1128677376-4096.gwf L1:L-L1_LOSC_4_V1-1128677376-4096.gwf \
+--frame-files H1:H-H1_LOSC_16_V2-1128676852-4096.gwf L1:L-L1_LOSC_16_V2-1128676852-4096.gwf \
 --channel-name H1:LOSC-STRAIN L1:LOSC-STRAIN \
 --strain-high-pass 15 \
 --pad-data 8 \

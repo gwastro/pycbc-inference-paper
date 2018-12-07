@@ -2,7 +2,7 @@
 
 # The following shows the process of thinning the chains of posterior samples stored in the output file obtained from running pycbc_inference. The chains can then be thinned to eliminate correlations along the chains and extracting independent samples.
 
-# The output file from running pycbc_inference using the sample script pycbc-inference-paper/run_files/LVT151012/run_pycbc_inference.sh is lvt151012_inference.hdf . We then thin the samples and store them in lvt151012_inference_thinned.hdf .
+# The output file from running pycbc_inference using the sample script pycbc-inference-paper/run_files/LVT151012/run_pycbc_inference.sh is lvt151012_posteriors.hdf . We then thin the samples and store them in lvt151012_posteriors_thinned.hdf .
 
 input_file=lvt151012_inference.hdf
 thin_start=`echo "from pycbc.io.inference_hdf import InferenceFile; import numpy; fp=InferenceFile('${input_file}', 'r'); print(int(fp.niterations/2) - 1); fp.close()" | python`
@@ -17,7 +17,7 @@ echo ${acl}
 # Extract independent samples from the second halves of the chains drawing samples with an interval of the acl
 
 pycbc_inference_extract_samples --verbose \
-    --output-file lvt151012_inference_thinned.hdf \
+    --output-file lvt151012_posteriors_thinned.hdf \
     --input-file ${input_file} \
     --posterior-only \
     --thin-start ${thin_start} \
